@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-time {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.container-time h2 {
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-img {
+  width: 200px;
+  height: 200px;
+}
+.container-products {
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: space-evenly;
+  padding-left: 20px;
+}
+.product {
+  border: solid 0.1px #fff;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  cursor: pointer;
+  border-radius: 16px 16px 0 0;
+}
+.product img {
+  border: solid 3px #fff;
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+}
+.product p {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.product h4 {
+  text-align: center;
+  font-size: 1rem;
+}
+.footer-section {
+  width: 100%;
+}
+.footer-content {
+  width: 100%;
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-Card {
+  border: solid red;
+  height: 900px;
+}
