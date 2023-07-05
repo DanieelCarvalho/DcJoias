@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 .container-time {
   background-color: black;
@@ -19,8 +21,16 @@
   justify-content: center;
 }
 .container-img {
-  width: 200px;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container-img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 .container-products {
   background-color: black;
